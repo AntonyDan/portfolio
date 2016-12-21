@@ -1,0 +1,51 @@
+.st0
+  display: none
+  flex-flow: column nowrap
+  align-items: center
+  justify-content: center
+  position: fixed
+  z-index: 10000
+  background-color: rgba(6, 6, 5, 0.8)
+  width: 100vw
+  height: 100%
+  form
+    display: flex
+    flex-flow: column nowrap
+    align-items: center
+    padding-left: 50px
+    padding-right: 50px
+    padding-top: 25px
+    padding-bottom: 30px
+    background: $white
+    border-radius: 35px
+    margin: auto 60px
+    h4
+      font-size: 2.22rem
+      font-family: opensans-extrabold
+      color: $blue
+      margin-bottom: 15px
+    p
+      max-width: 380px
+      font-family: opensans-semibold
+      color: black
+      margin-bottom: 15px
+      text-align: center
+    .inputtext
+      text-indent: 15px
+      border: 2px solid $blue
+      margin-bottom: 11px
+      width: 100%
+      max-width: 440px
+    .button
+      padding-left: 15px
+      padding-right: 15px
+      background-color: rgb(0, 183, 61)
+      border-color: rgb(0, 183, 61)
+      box-shadow: 0 2.5px 0px rgb(0, 81, 27)
+
+@media screen and (max-width: 865px)
+  .st0
+    form
+      padding-top: 15px
+      h4
+        font-size: 1.7rem

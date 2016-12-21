@@ -1,0 +1,204 @@
+.st10
+  background: linear-gradient(to bottom, rgb(58, 145, 184), rgb(49, 202, 172))
+  .container
+    flex-flow: column nowrap
+    h2
+      color: $white
+      max-width: 600px
+    .content
+      width: 100%
+      background-color: $white
+      margin-bottom: 65px
+      .nav-tabs
+        display: flex
+        flex: 1 1 auto
+        flex-flow: row nowrap
+        @media screen and (max-width: 650px)
+          flex-flow: column wrap
+          height: 70px
+        li
+          display: flex
+          flex: 1 1 auto
+          justify-content: center
+          width: auto
+          border-right: 1px solid rgb(189, 189, 189)
+          border-bottom: 1px solid rgb(189, 189, 189)
+          border-top: none
+          a
+            color: rgb(129, 128, 128)
+            font-size: 1.33rem
+            @media screen and (max-width: 865px)
+              font-size: 1rem
+            @media screen and (max-width: 665px)
+              font-size: 0.89rem
+            font-family: opensans-light
+            padding-top: 5px
+            padding-bottom: 5px
+          &:last-child
+            border-right: none
+        .active
+          border-bottom: none
+          @media screen and (max-width: 650px)
+            border-bottom: 1px solid rgb(189, 189, 189)
+          a
+            color: black
+            font-weight: bold
+      .tab-content
+        .tab-pane
+          padding-top: 40px
+          padding-bottom: 40px
+          @media screen and (max-width: 850px)
+            padding-top: 20px
+          .mini
+            display: flex
+            flex: 1 1 auto
+            flex-flow: column nowrap
+            .st10functional
+              width: 95%
+              height: auto
+              margin: 20px 2.5% 0 2.5%
+              clear:both
+            .st10primer
+              width: 85%
+              height: auto
+              margin: auto 7.5%
+            .zakaz
+              display: flex
+              flex-flow: column nowrap
+              flex: 1 1 auto
+              align-items: flex-start
+              font-family: opensans-regular
+              font-size: 1rem
+              @media screen and (max-width: 865px)
+                font-size: 0.78rem
+                margin-left: 30px
+              margin-left: 60px
+              .radio
+                display: flex
+                align-items: center
+                margin-bottom: 25px
+                .radioLabel
+                  color: black
+                input[type=radio]
+                  display: none
+                input[type=radio]:checked+label:after
+                  border: 2px solid rgb(173, 111, 12)
+                  background-size: 110% 110%
+                .forRadio
+                  cursor: pointer
+                  width: 47px
+                  height: 47px
+                  margin-left: 20px
+                  @media screen and (max-width: 865px)
+                    width: 30px
+                    height: 30px
+                    margin-left: 15px
+                  &:after
+                    content: ''
+                    display: block
+                    width: 47px
+                    height: 47px
+                    @media screen and (max-width: 865px)
+                      width: 30px
+                      height: 30px
+                    position: relative
+                    border-radius: 30px
+                .radio1:after
+                  background: url('../images/first-color.png') center no-repeat
+                .radio2:after
+                  background: url('../images/second-color.png') center no-repeat
+                .radio3:after
+                  background: url('../images/third-color.png') center no-repeat
+              label[for='secondName']
+                margin-right: 30px
+                input
+                  margin-top: 15px
+                  margin-left: 20px
+                  width: 530px
+                  text-indent: 10px
+                  @media screen and (max-width: 950px)
+                    width: 200px
+                  @media screen and (max-width: 650px)
+                    text-align: center
+                    margin-left: 0px
+                margin-bottom: 45px
+              .button
+                align-self: center
+                margin-left: -60px
+                padding-left: 15px
+                padding-right: 15px
+          .personal
+            display: flex
+            flex: 1 1 auto
+            flex-flow: column nowrap
+            .st10-2headerImage
+              width: 100%
+              height: auto
+              margin-bottom: 40px
+              @media screen and (max-width: 650px)
+                margin-bottom: 20px
+            .personal-text
+              margin-left: 40px
+              margin-right: 40px
+              img
+                float: right
+                margin-left: 20px
+                margin-bottom: 20px
+                margin-top: 20px
+                width: 35vw
+                height: auto
+                @media screen and (max-width: 650px)
+                  width: 50vw
+          .blog
+            display: flex
+            flex: 1 1 auto
+            flex-flow: column nowrap
+            .post
+              display: flex
+              flex-flow: row nowrap
+              border-bottom: 1px solid $ingrey
+              padding-bottom: 30px
+              margin-bottom: 30px
+              &:last-child
+                border-bottom: none
+                padding-bottom: none
+                margin-bottom: none
+              img
+                width: 40vw
+                height: 25vw
+                max-width: 350px
+                max-height: 220px
+                margin-left: 30px
+                margin-right: 30px
+                @media screen and (max-width: 750px)
+                  display: none
+              .text
+                margin-right: 60px
+                @media screen and (max-width: 750px)
+                  margin-left: 20px
+                  margin-right: 20px
+                h3
+                  font-family: opensans-extrabold
+                  font-size: 1.33rem
+                  @media screen and (max-width: 850px)
+                    font-size: 1rem
+                  color: black
+                  margin-bottom: 15px
+                  line-height: 15px
+                p
+                  color: black
+                  img
+                    display: none
+                    width: 40vw
+                    height: 25vw
+                    max-width: 350px
+                    max-height: 220px
+                    margin-left: 0px
+                    margin-right: 15px
+                    float: left
+                    @media screen and (max-width: 750px)
+                      display: block
+                  a
+                    display: inline-block
+                    padding-top: 10px
+                    color: rgb(14, 169, 249)

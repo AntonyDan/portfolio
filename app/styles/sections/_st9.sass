@@ -1,0 +1,58 @@
+.st9
+  #carousel2
+    width: 100%
+    .carousel-indicators
+      bottom: 30px
+      li
+        border: 2px solid $green
+    .carousel-inner
+      .item
+        flex-flow: column nowrap
+        background-color: #ffffff
+        width: 100%
+        .container-9
+          flex-flow: column nowrap
+          margin-left: auto
+          margin-right: auto
+          padding-bottom: 70px
+          .content
+            display: flex
+            flex-flow: row nowrap
+            flex: 1 1 auto
+            width: 100%
+            justify-content: space-between
+            .text
+              display: flex
+              flex: 1 1 auto
+              max-width: 600px
+              margin-right: 30px
+              p
+                img
+                  float: right
+                  margin-left: 20px
+                  margin-bottom: 20px
+                  width: 35vw
+                  height: auto
+                  display: none
+          img
+            display: flex
+            flex: 0 1 330px
+            align-self: center
+            margin-right: 60px
+@media screen and (max-width: 865px)
+  .st9
+    #carousel2
+      .carousel-inner
+        .item
+          .container-9
+            h2
+              font-size: 1.66rem
+            .content
+              .text
+                max-width: 100%
+                margin-right: 0px
+                p
+                  img
+                    display: block
+            img
+              display: none

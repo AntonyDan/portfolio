@@ -1,0 +1,55 @@
+.st1
+  background-color: $blue
+  .container-1
+    flex-flow: row wrap
+    padding-top: 20px
+    padding-bottom: 20px
+    justify-content: center
+    align-items: center
+    .logo
+      display: flex
+      flex: 0 0 196px
+      height: 85px
+      background: url('../images/logo.svg') no-repeat
+      background-size: contain
+      margin: auto
+      margin-left: 0px
+    .contacts
+      display: flex
+      flex-flow: column nowrap
+      color: $white
+      font-family: opensans-semibold
+      margin: auto
+      p:nth-child(2)
+        margin-top: 10px
+      p
+        img
+          width: 16px
+          height: 16px
+          margin-right: 10px
+          margin-bottom: -2px
+    .buttons
+      width: 460px
+      justify-content: center
+      text-align: center
+      margin: auto
+      .button
+        color: $extrablue
+        border-color: $extrablue
+        background-color: $blue
+        line-height: 24px
+        font-size: 0.78rem
+        width: 210px
+        margin-top: 10px
+        margin-right: 15px
+        &:last-child
+          margin-right: 15px
+
+
+@media screen and (max-width: 1040px)
+  .st1
+    .container-1
+      .logo
+        margin-left: auto
+      .buttons
+        width: auto

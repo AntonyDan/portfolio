@@ -1,0 +1,99 @@
+.st5
+  .container-5
+    flex-flow: column nowrap
+    padding-bottom: 65px
+    .content-5
+      display: flex
+      flex: 1 1 auto
+      flex-flow: row nowrap
+      justify-content: flex-start
+      .text
+        display: flex
+        flex-flow: column nowrap
+        flex: 1 1 auto
+        margin-right: 30px
+        p
+          margin-top: 30px
+          font-family: opensans-regular
+          color: $grey
+          padding-left: 55px
+          background-size: 35px
+          background-repeat: no-repeat
+          background-position: 0px 0px
+        .koshelek
+          background-image: url('../images/koshelek.svg')
+        .badsmile
+          background-image: url('../images/badsmile.svg')
+        .border-p
+          border: 2px dashed $extrablue
+          border-radius: 10px
+          padding-left: 20px
+          padding-right: 20px
+          padding-bottom: 12px
+          padding-top: 10px
+          margin-left: 0
+          margin-top: 30px
+        ul
+          padding-left: 37px
+          font-family: opensans-regular
+          font-size: 1rem
+          color: $grey
+          padding-left: 55px
+          margin-top: 30px
+          background-size: 35px 35px
+          background-image: url('../images/smile.svg')
+          background-repeat: no-repeat
+          background-position: 0px 5px
+          li
+            padding-left: 25px
+            display: inline-block
+            background-image: url('../images/circle.svg')
+            background-position: 0 7px
+            background-size: 12px
+            background-repeat: no-repeat
+            margin-top: 10px
+            &:first-child
+              padding-left: 0px
+              background-image: none
+              font-family: opensans-extrabold
+
+      .images
+        display: flex
+        flex-flow: column nowrap
+        flex: 1 1 auto
+        align-self: center
+        img
+          width: 308px
+          height: 164px
+          margin-top: 16px
+
+@media screen and (max-width: 865px)
+  .st5
+    .container-5
+      .content-5
+        flex-flow: column wrap
+        .text
+          margin-right: 0px
+          p
+            padding-left: 42px
+            background-size: 27px
+            &:first-child
+              line-height: 27px
+          ul
+            font-size: 0.78rem
+            padding-left: 42px
+            background-size: 27px
+        .images
+          width: 100%
+          img
+            width: 100%
+            height: auto
+@media screen and (max-width: 776px)
+  .st5
+    .container-5
+      .content-5
+        .text
+          p
+            &:first-child
+              line-height: inherit
+              margin-top: 0px

@@ -1,0 +1,46 @@
+.st3
+  .container-3
+    position: relative
+    width: 100%
+    .rslides
+      position: relative
+      width: 100%
+      padding: 0
+      margin: 0
+      list-style: none
+      overflow: hidden
+      li
+        -webkit-backface-visibility: hidden
+        position: absolute
+        display: none
+        width: 100%
+        left: 0
+        top: 0
+        &:first-child
+        position: relative
+        display: block
+        float: left
+        img
+          display: block
+          height: auto
+          float: left
+          width: 100%
+          border: 0
+    .rslides_nav
+      display: block
+      width: 5vw
+      height: 5vw
+      position: absolute
+      top: 50%
+      z-index: 1000
+      text-indent: 100%
+      white-space: nowrap
+      overflow: hidden
+    .prev
+      left: 5%
+      background: url("../images/slideDown.svg") no-repeat
+      background-size: contain
+    .next
+      right: 5%
+      background: url("../images/slideUP.svg") no-repeat
+      background-size: contain

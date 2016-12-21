@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="11.565643mm"
+   height="16.654921mm"
+   viewBox="0 0 40.980626 59.013497"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="train.svg">
+  <defs
+     id="defs4">
+    <clipPath
+       id="clipPath4150"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4152"
+         d="m 0,0 26.88,0 0,21.839 L 0,21.839 0,0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4150-6"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4152-0"
+         d="m 0,0 26.88,0 0,21.839 L 0,21.839 0,0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4231"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4233"
+         d="m 0,47.211 32.785,0 L 32.785,0 0,0 0,47.211 Z" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="1.905065"
+     inkscape:cy="31.194467"
+     inkscape:document-units="px"
+     inkscape:current-layer="g4144"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-387.36848,-407.33083)">
+    <g
+       transform="matrix(-1.25,0,0,-1.25,371.04705,390.94034)"
+       inkscape:label="стрелки"
+       id="g4144">
+      <g
+         transform="matrix(-1,0,0,1,-13.056641,-60.323191)"
+         inkscape:label="поезд"
+         id="g4225"
+         style="fill:#000000">
+        <g
+           id="g4227"
+           style="fill:#000000">
+          <g
+             clip-path="url(#clipPath4231)"
+             id="g4229"
+             style="fill:#000000">
+            <g
+               transform="translate(26.8555,25.9688)"
+               id="g4235"
+               style="fill:#000000">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path4237"
+                 style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+                 d="m 0,0 -20.984,0 0,6.664 c 0,1.965 1.621,3.563 3.616,3.563 l 13.747,0 C -1.625,10.227 0,8.629 0,6.664 L 0,0 Z m 1.613,6.664 c 0,2.844 -2.347,5.153 -5.234,5.153 l -13.747,0 c -2.885,0 -5.23,-2.309 -5.23,-5.153 l 0,-8.254 24.211,0 0,8.254 z m -4.133,-23.879 5.258,-8.754 1.391,0.809 -5.258,8.755 -1.391,-0.81 z m -22.597,-7.945 1.39,-0.809 5.258,8.754 -1.39,0.81 -5.258,-8.755 z m 24.711,16.434 c -0.797,0 -1.446,0.636 -1.446,1.422 0,0.785 0.649,1.425 1.446,1.425 0.797,0 1.445,-0.64 1.445,-1.425 0,-0.786 -0.648,-1.422 -1.445,-1.422 m 0,4.437 c -1.688,0 -3.059,-1.351 -3.059,-3.015 0,-1.661 1.371,-3.011 3.059,-3.011 1.687,0 3.058,1.35 3.058,3.011 0,1.664 -1.371,3.015 -3.058,3.015 m -20.177,-4.437 c -0.795,0 -1.444,0.636 -1.444,1.422 0,0.785 0.649,1.425 1.444,1.425 0.797,0 1.446,-0.64 1.446,-1.425 0,-0.786 -0.649,-1.422 -1.446,-1.422 m 0,4.437 c -1.687,0 -3.062,-1.351 -3.062,-3.015 0,-1.661 1.375,-3.011 3.062,-3.011 1.688,0 3.06,1.35 3.06,3.011 0,1.664 -1.372,3.015 -3.06,3.015 m 17.763,25.531 -15.332,0 0,-1.589 15.336,0 0,1.589 -0.004,0 z m 7.136,-35.039 -29.559,0 0,20.743 c 0,4.683 3.868,8.492 8.621,8.492 l 12.317,0 c 4.754,0 8.621,-3.809 8.621,-8.492 l 0,-20.743 z m -8.621,30.825 -12.317,0 c -5.644,0 -10.233,-4.524 -10.233,-10.082 l 0,-22.333 32.785,0 0,22.333 c 0,5.558 -4.59,10.082 -10.235,10.082" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

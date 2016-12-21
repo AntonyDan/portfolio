@@ -1,0 +1,82 @@
+.st8
+  .container-8
+    width: 100%
+    #carousel-example-generic
+      .carousel-indicators
+        bottom: 10%
+      .carousel-inner
+        .item
+          flex-flow: column nowrap
+          width: 100%
+          background: url('../images/st8bg.png') 0 30px no-repeat
+          background-size: cover
+          .container-8
+            flex-flow: row nowrap
+            justify-content: space-between
+            margin-left: auto
+            margin-right: auto
+            .content
+              display: flex
+              flex-flow: column nowrap
+              width: 100%
+              max-width: 550px
+              justify-content: space-between
+              margin-top: 60px
+              h3
+                font-family: opensans-extrabold
+                font-size: 2.66rem
+                color: $white
+                margin-bottom: 40px
+              .text
+                display: flex
+                flex: 1 1 auto
+                flex-flow: column
+                margin-bottom: 70px
+                p
+                  color: $white
+                  margin-bottom: 15px
+            .bgmobile
+              height: 100%
+
+@media screen and (max-width: 1110px)
+  .st8
+    .container-8
+      #carousel-example-generic
+        .carousel-inner
+          .item
+            .container-8
+              .bgmobile
+                height: 40vw
+                align-self: flex-end
+@media screen and (max-width: 1060px)
+  .st8
+    .container-8
+      #carousel-example-generic
+        .carousel-inner
+          .item
+            background-position: 0px 0px
+            .container-8
+              .content
+                margin-top: 30px
+  @media screen and (max-width: 865px)
+      .st8
+        .container-8
+          #carousel-example-generic
+            .carousel-inner
+              .item
+                .container-8
+                  .content
+                    h3
+                      font-size: 1.94rem
+                      margin-bottom: 20px
+  @media screen and (max-width: 670px)
+    .st8
+      .container-8
+        #carousel-example-generic
+          .carousel-inner
+            .item
+              .container-8
+                .content
+                  h3
+                    font-size: 1.11rem
+                    margin-bottom: 15px

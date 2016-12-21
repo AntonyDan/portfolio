@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 540.09449 540.36219"
+   height="540.36218"
+   width="540.09448">
+  <defs
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3350">
+      <path
+         d="m 0,409.602 409.602,0 L 409.602,0 0,0 0,409.602 Z"
+         id="path3352" />
+    </clipPath>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-511.99996)"
+     id="layer1">
+    <g
+       style="fill:#ffffff"
+       id="g3344"
+       transform="matrix(1.25,0,0,-1.25,13.284591,1040.0772)">
+      <g
+         style="fill:#ffffff"
+         id="g3346">
+        <g
+           style="fill:#ffffff"
+           id="g3348"
+           clip-path="url(#clipPath3350)">
+          <g
+             style="fill:#ffffff"
+             id="g3354"
+             transform="translate(204.8008,33.2109)">
+            <path
+               d="m 0,0 c -94.613,0 -171.59,76.977 -171.59,171.589 0,94.615 76.977,171.591 171.59,171.591 94.613,0 171.59,-76.976 171.59,-171.591 C 171.59,76.977 94.613,0 0,0 m 0,376.391 c -112.93,0 -204.801,-91.871 -204.801,-204.802 0,-112.925 91.871,-204.8 204.801,-204.8 112.926,0 204.801,91.875 204.801,204.8 0,112.931 -91.875,204.802 -204.801,204.802"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="path3356" />
+          </g>
+          <g
+             style="fill:#ffffff"
+             id="g3358"
+             transform="translate(221.4062,211.6797)">
+            <path
+               d="m 0,0 0,125.965 -33.211,0 0,-139.719 98.797,-98.801 L 89.07,-89.07 0,0 Z"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="path3360" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

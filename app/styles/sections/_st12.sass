@@ -1,0 +1,51 @@
+.st12
+  #carousel3
+    width: 100%
+    .carousel-indicators
+      bottom: 30px
+      li
+        border: 2px solid $green
+    .carousel-inner
+      .item
+        flex-flow: column nowrap
+        background-color: #ffffff
+        width: 100%
+        .container-12
+          flex-flow: column nowrap
+          padding-bottom: 65px
+          margin-left: auto
+          margin-right: auto
+          h2
+            max-width: 650px
+          .content
+            display: flex
+            flex-flow: row nowrap
+            width: 100%
+            img
+              width: 370px
+              margin-right: 20px
+              @media screen and (max-width: 860px)
+                display: none
+            .text
+              display: flex
+              flex-flow: column nowrap
+              flex: 1 1 auto
+              max-width: 600px
+              @media screen and (max-width: 860px)
+                max-width: none
+                margin-right: 0px
+              margin-right: 50px
+              p
+                font-family: Myriad-pro
+                margin-top: 10px
+                line-height: 22px
+                color: black
+                img
+                  display: none
+                  width: 40vw
+                  height: 35vw
+                  float: left
+                  @media screen and (max-width: 860px)
+                    display: block
+                    margin-right: 20px
+                    margin-bottom: 5px

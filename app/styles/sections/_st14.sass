@@ -1,0 +1,84 @@
+.st14
+  background: linear-gradient(to top, rgb(58, 145, 184), rgb(49, 202, 172))
+  .container-14
+    display: flex
+    width: 100%
+    max-width: 1170px
+    padding-left: 60px
+    padding-right: 60px
+    align-items: flex-start
+    flex-flow: row wrap
+    padding-bottom: 45px
+    .h2
+      width: 100%
+      text-align: center
+      color: $white
+    p
+      width: 100%
+      text-align: left
+      margin-bottom: 25px
+      color: $white
+    .contacts
+      display: flex
+      flex-flow: column nowrap
+      flex: 0 0 270px
+      @media screen and (max-width: 865px)
+        flex-flow: row nowrap
+        flex: 1 1 auto
+        justify-content: space-between
+      @media screen and (max-width: 565px)
+        flex-flow: column nowrap
+        flex: 1 1 auto
+      p
+        color: $white
+        padding-left: 30px
+        &:nth-child(1)
+          background: url('../images/call14.svg') 0px 0px no-repeat
+          background-size: 16px
+          width: 200px
+        &:nth-child(2)
+          background: url('../images/operator.svg') 0px 0px no-repeat
+          background-size: 16px
+        &:nth-child(3)
+          background: url('../images/okay.svg') 0px 2px no-repeat
+          background-size: 16px
+        a
+          color: $white
+          text-decoration: underline
+        @media screen and (max-width: 865px)
+          margin-right: 15px
+          &:nth-child(1)
+            min-width: 160px
+      address
+        font-size: 14px
+        font-family: opensans-regular
+        color: $white
+        @media screen and (max-width: 865px)
+          display: none
+    .logo
+      width: 650px
+      height: 280px
+      background-image: url('../images/logo.svg')
+      background-repeat: no-repeat
+      background-size: contain
+      @media screen and (max-width: 1065px)
+        width: 53vw
+        height: 25vw
+      @media screen and (max-width: 865px)
+        margin-left: auto
+        margin-right: auto
+        width: 70vw
+        height: 30vw
+    .adaptive
+      display: none
+      @media screen and (max-width: 865px)
+        display: flex
+        flex-flow: row nowrap
+        justify-content: space-between
+        width: 100%
+        margin-top: 40px
+        color: $white
+        p
+          font-size: 0.66rem
+          &:last-child
+            text-align: right

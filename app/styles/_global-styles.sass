@@ -1,0 +1,68 @@
+html
+  font-size: 18px
+.section
+  display: flex
+  flex: 1 1 auto
+  background-color: $white
+  justify-content: center
+.container
+  display: flex
+  width: 100%
+  max-width: 1170px
+  padding-left: 60px
+  padding-right: 60px
+  align-items: flex-start
+
+.buttons
+  display: flex
+  flex-flow: row wrap
+  margin-left: 20px
+  margin-right: 20px
+.button
+  border: 2px solid $extrablue
+  border-radius: 8px
+  background-color: $extrablue
+  color: $white
+  font-family: opensans-semibold
+  font-size: 0.89rem
+  @media screen and (max-width: 865px)
+    font-size: 0.78rem
+    line-height: 34px
+  line-height: 40px
+  outline: none
+  &:focus, &:active
+    outline: none
+p
+  font-size: 1rem
+  font-family: opensans-regular
+  @media screen and (max-width: 865px)
+    font-size: 0.78rem
+.inputtext
+  border: 2px solid $ingrey
+  border-radius: 8px
+  background-color: $white
+  color: $grey
+  font-family: opensans-semibold
+  font-size: 0.89rem
+  line-height: 40px
+  outline: none
+  @media screen and (max-width: 865px)
+    font-size: 0.78rem
+    line-height: 34px
+h2
+  color: $grey
+  font-size: 2.67rem
+  font-family: 'opensans-light'
+  text-align: center
+  align-self: center
+  margin-top: 60px
+  margin-bottom: 45px
+  @media screen and (max-width: 865px)
+    font-size: 2rem
+    margin-top: 30px
+    margin-bottom: 20px
+.wrapper
+  display: flex
+  flex-direction: column
+  width: 100%
+  background-color: $white

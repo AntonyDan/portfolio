@@ -1,0 +1,110 @@
+.st6
+  .container-6
+    display: flex
+    flex-flow: column nowrap
+    flex: 1 1 auto
+    align-items: center
+    background: $bggrey
+    .text
+      display: flex
+      width: 100%
+      max-width: 1170px
+      flex-flow: column nowrap
+      p
+        font-family: opensans-regular
+        text-align: left
+        margin-bottom: 30px
+        margin-left: 60px
+        margin-right: 60px
+        padding-left: 55px
+        max-width: 480px
+        &:nth-child(1)
+          max-width: 800px
+        &:nth-child(2n)
+          align-self: flex-end
+          max-width: 570px
+      .smallWifi
+        line-height: 35px
+        background: url('../images/smallwifi.svg') 0px 0px no-repeat
+        background-size: 35px
+      .mobile
+        background: url('../images/mobile.svg') 0px 0px no-repeat
+        background-size: 35px
+      .binokle
+        background: url('../images/binokle.svg') 0px 0px no-repeat
+        background-size: 35px
+      .budilnik
+        background: url('../images/budilnik.svg') 0px 0px no-repeat
+        background-size: 35px
+      .dindon
+        background: url('../images/dindon.svg') 0px 0px no-repeat
+        background-size: 35px
+    .bgvideo
+      background: $white
+      width: 100%
+      .video
+        display: flex
+        flex: 1 1 auto
+        flex-flow: column nowrap
+        width: 100%
+        align-items: center
+        background: url('../images/st6bg.png') top no-repeat
+        background-size: 110% 110%
+        padding-bottom: 35px
+        padding-top: 10px
+        margin-top: -5px
+        iframe
+          width: 650px
+          height: 350px
+          border: 0px
+        .buttons
+          margin-top: 18px
+          .button
+            padding-left: 5px
+            padding-right: 5px
+            margin-top: 15px
+          .button2
+            background-color: $bggrey
+            color: $extrablue
+            border-color: rgb(0, 183, 61)
+            margin-right: 15px
+
+
+@media screen and (max-width: 965px)
+  .st6
+    .container-6
+      .bgvideo
+        .video
+          iframe
+            width: 69vw
+            height: 37.5vw
+          .buttons
+            width: 70%
+            justify-content: center
+
+@media screen and (max-width: 865px)
+  .st6
+    .container-6
+      .text
+        p
+          padding-left: 42px
+        .smallWifi
+          background-size: 30px
+          line-height: 30px
+        .mobile
+          background-size: 30px
+        .binokle
+          background-size: 30px
+        .budilnik
+          background-size: 30px
+        .dindon
+          background-size: 30px
+
+
+
+@media screen and (max-width: 865px)
+  .st6
+    .container-6
+      .text
+        .smallWifi
+          line-height: inherit

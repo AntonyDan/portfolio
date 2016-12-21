@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="88.476311mm"
+   height="56.529816mm"
+   viewBox="0 0 313.49874 200.30249"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="battery.svg">
+  <defs
+     id="defs4">
+    <clipPath
+       id="clipPath4150"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4152"
+         d="m 0,0 26.88,0 0,21.839 L 0,21.839 0,0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4150-6"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4152-0"
+         d="m 0,0 26.88,0 0,21.839 L 0,21.839 0,0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4231"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4233"
+         d="m 0,47.211 32.785,0 L 32.785,0 0,0 0,47.211 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4260"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4262"
+         d="m 0,0 39.839,0 0,39.839 L 0,39.839 0,0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4289"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4291"
+         d="m 0,0 43.92,0 0,32.88 L 0,32.88 0,0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4301"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4303"
+         d="m 0,32.88 43.926,0 L 43.926,0 0,0 0,32.88 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4348"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4350"
+         d="m 0,0 250.799,0 0,161.76 L 0,161.76 0,0 Z" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="95.323458"
+     inkscape:cy="186.90895"
+     inkscape:document-units="px"
+     inkscape:current-layer="g4144"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-281.05346,-357.65922)">
+    <g
+       transform="matrix(-1.25,0,0,-1.25,371.04705,390.94034)"
+       inkscape:label="стрелки"
+       id="g4144">
+      <g
+         transform="matrix(-1,0,0,1,71.994875,-134.5791)"
+         inkscape:label="батарейка"
+         id="g4342">
+        <g
+           id="g4344">
+          <g
+             clip-path="url(#clipPath4348)"
+             id="g4346">
+            <path
+               inkscape:connector-curvature="0"
+               id="path4352"
+               style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="m 160.27,126.931 27.395,0 0,-91.692 -27.395,0 0,91.692 z m -41.571,0 27.391,0 0,-91.7 -27.391,0 0,91.7 z m -41.562,0 27.39,0 0,-91.692 -27.39,0 0,91.692 z m -41.575,0 27.391,0 0,-91.692 -27.391,0 0,91.692 z m 172.668,34.273 -192.804,0 C 6.906,161.204 0,154.298 0,145.778 L 0,16.384 C 0,7.876 6.906,0.962 15.426,0.962 l 192.804,0 c 8.508,0 15.426,6.914 15.426,15.422 l 0,21.211 11.789,0 c 8.508,0 15.422,6.91 15.422,15.421 l 0,56.133 c 0,8.512 -6.914,15.422 -15.422,15.422 l -11.789,0 0,21.207 c -0.004,8.528 -6.914,15.426 -15.426,15.426 m 0,-10.281 c 2.832,0 5.141,-2.305 5.141,-5.145 l 0,-31.488 22.074,0 c 2.832,0 5.141,-2.305 5.141,-5.145 l 0,-56.129 c 0,-2.839 -2.309,-5.14 -5.141,-5.14 l -22.074,0 0,-31.492 c 0,-2.84 -2.309,-5.141 -5.141,-5.141 l -192.804,0 c -2.844,0 -5.145,2.301 -5.145,5.141 l 0,129.394 c 0,2.84 2.301,5.145 5.145,5.145 l 192.804,0" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,83 @@
+.st2
+  .container-2
+    flex-flow: column nowrap
+    padding-top: 1.5vw
+    padding-bottom: 15px
+    h1
+      font-family: opensans-extrabold
+      font-size: 3rem
+      color: $green
+      span
+        display: inline-block
+        line-height: 53px
+        vertical-align: middle
+        text-align: center
+        width: 250px
+        height: 60px
+        background-color: $green
+        font-family: opensans-light
+        font-size: 1.66rem
+        color: $white
+    .previous
+      display: flex
+      flex-flow: row nowrap
+      margin-top: 1.4vw
+      p
+        display: inline-block
+        font-size: 1.22rem
+        font-family: opensans-light
+        &:nth-child(1)
+          max-width: 260px
+          padding-right: 25px
+        &:nth-child(2)
+          max-width: 580px
+          padding-left: 25px
+          border-left: 5px solid $green
+
+@media screen and (max-width: 865px)
+  .st2
+    .container-2
+      h1
+        font-size: 2.3rem
+        span
+          font-size: 1.27rem
+          width: 200px
+          height: 46px
+          line-height: 40px
+      .previous
+        p
+          font-size: 0.94rem
+@media screen and (max-width: 720px)
+  .st2
+    .container-2
+      h1
+        font-size: 1.83rem
+        span
+          font-size: 1rem
+          width: 150px
+          height: 35px
+          line-height: 31px
+      .previous
+        p
+          font-size: 0.83rem
+          &:nth-child(1)
+            max-width: 320px
+            padding-right: 10px
+          &:nth-child(2)
+            max-width: 700px
+            padding-left: 20px
+
+@media screen and (max-width: 600px)
+  .st2
+    .container-2
+      h1
+        span
+          font-size: 0.83rem
+          width: 120px
+          height: 29px
+          line-height: 25px
+@media screen and (max-width: 560px)
+  .st2
+    .container-2
+      h1
+        font-size: 1.38rem
